@@ -4,9 +4,12 @@ namespace Agp\Agpag;
 
 
 use Agp\Agpag\Model\Entity;
+use Agp\Agpag\Service\CurlResquest;
 
 class PerfilPagamento extends Entity
 {
+    use CurlResquest;
+
     /**
      * @var int
      */
@@ -51,4 +54,9 @@ class PerfilPagamento extends Entity
      * @var boolean
      */
     protected $binary_mode;
+
+    public function get($id)
+    {
+        return $this->sendRequest("pessoa/".$id."/perfil-pagamento");
+    }
 }
