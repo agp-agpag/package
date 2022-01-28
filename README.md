@@ -21,7 +21,7 @@ PHP 7.2 ou superior
 Primeira vez usando o Mercado Pago? Crie sua conta no Mercado Pago, caso ainda não tenha uma.
 
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) if not already installed
-2. No diretório do seu projeto execute na linha de comando `composer require "agp/agpag"`.
+2. No diretório do seu projeto execute na linha de comando `composer require "agp/agpag-php"`.
 3. Solicite o client_secret e substitua SEU_CLIENT_SECRET por ele.
 
 Pronto! O pacote foi instalado com sucesso.
