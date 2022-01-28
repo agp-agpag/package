@@ -1,6 +1,6 @@
 {
-    "name": "agp/modelo",
-    "description": "Pacote modelo de Package",
+    "name": "agp/agpag-php",
+    "description": "SDK de integração com o AGPAG",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Agp\\Modelo\\AgpModeloServiceProvider"
+                "AgpAgpagServiceProvider"
             ]
         }
     }
