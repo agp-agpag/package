@@ -9,20 +9,18 @@
             "email": "richardpcardoso@gmail.com"
         }
     ],
+    "config": {
+        "platform": {
+            "php": "7.1"
+        }
+    },
     "require": {
-        "php": ">=7.3"
+        "php": ">=7.2"
     },
     "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
-            "Agp\\Modelo": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "AgpAgpagServiceProvider"
-            ]
+            "Agp\\Agpag": "src/"
         }
     }
 }
